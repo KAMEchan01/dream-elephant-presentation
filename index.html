@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+        }
+        .slide {
+            width: 100%;
+            height: 100vh;
+            padding: 40px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+        }
+        .title-slide {
+            text-align: center;
+            background: 
+                linear-gradient(rgba(139, 69, 19, 0.9), rgba(101, 67, 33, 0.9)),
+                url("data:image/svg+xml,%3Csvg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23noise)' opacity='0.15'/%3E%3C/svg%3E");
+            background-size: cover;
+            color: #FFF5E6;
+            position: relative;
+            overflow: hidden;
+        }
+        .title-slide::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0 0h40v40H0V0zm20 20v20H0V20h20zm20 0v20H20V20h20zM20 0v20H0V0h20zm20 0v20H20V0h20z' fill='%23976841' fill-opacity='0.1' fill-rule='evenodd'/%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #4a90e2;
+            margin-bottom: 20px;
+        }
+        .content {
+            font-size: 1.5em;
+            line-height: 1.6;
+            color: #FFFFFF;
+        }
+        .list-content {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            font-size: 1.2em;
+        }
+        .grid-item {
+            padding: 10px;
+            background: rgba(74, 144, 226, 0.1);
+            border-radius: 5px;
+        }
+        .highlight-box {
+            background: #8B4513;
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- タイトルスライド -->
+<div class="slide title-slide">
+    <h1>夢をかなえるゾウ<br>実践プログラム</h1>
+    <div class="content">
+        <p>〜 ガネーシャの29の教えを実践する 〜</p>
+    </div>
+</div>
+
+<!-- プログラム概要スライド -->
+<div class="slide">
+    <h1>プログラム概要</h1>
+    <div class="content">
+        <div class="highlight-box">
+            <p>📚 目的：ガネーシャの名言29個を実践し、夢の実現可能性を検証</p>
+            <p>⏰ 期間：29週間（約7ヶ月）</p>
+            <p>🎯 実施頻度：週1個の名言を実践</p>
+        </div>
+    </div>
+</div>
+
+<!-- 実践内容スライド1 -->
+<div class="slide">
+    <h1>実践する29の行動（1/3）</h1>
+    <div class="list-content">
+        <div class="grid-item">1. 靴をみがく</div>
+        <div class="grid-item">2. コンビニでお釣りを募金する</div>
+        <div class="grid-item">3. 食事を腹八分目におさえる</div>
+        <div class="grid-item">4. 人が欲しがっているものを先取りする</div>
+        <div class="grid-item">5. 会った人を笑わせる</div>
+        <div class="grid-item">6. トイレ掃除をする</div>
+        <div class="grid-item">7. まっすぐ帰宅する</div>
+        <div class="grid-item">8. その日頑張れた自分を褒める</div>
+        <div class="grid-item">9. 一日何かをやめてみる</div>
+        <div class="grid-item">10. 決めたことを続けるための環境を作る</div>
+    </div>
+</div>
+
+<!-- 実践内容スライド2 -->
+<div class="slide">
+    <h1>実践する29の行動（2/3）</h1>
+    <div class="list-content">
+        <div class="grid-item">11. 毎朝全身鏡を見て身なりを整える</div>
+        <div class="grid-item">12. 自分が一番得意なことを人に聞く</div>
+        <div class="grid-item">13. 自分の苦手なことを人に聞く</div>
+        <div class="grid-item">14. 夢を楽しく想像する</div>
+        <div class="grid-item">15. 運が良いと口に出して言う</div>
+        <div class="grid-item">16. ただでもらう</div>
+        <div class="grid-item">17. 明日の準備をする</div>
+        <div class="grid-item">18. 身近にいる一番大事な人を喜ばせる</div>
+        <div class="grid-item">19. 誰かひとりのいいところを見つけてホメる</div>
+        <div class="grid-item">20. 人の長所を盗む</div>
+    </div>
+</div>
+
+<!-- 実践内容スライド3 -->
+<div class="slide">
+    <h1>実践する29の行動（3/3）</h1>
+    <div class="list-content">
+        <div class="grid-item">21. 求人情報を見る</div>
+        <div class="grid-item">22. お参りに行く</div>
+        <div class="grid-item">23. 人気店に入り、人気の理由を観察する</div>
+        <div class="grid-item">24. プレゼントをして驚かせる</div>
+        <div class="grid-item">25. やらずに後悔していることを今日から始める</div>
+        <div class="grid-item">26. サービスとして夢を語る</div>
+        <div class="grid-item">27. 人の成功をサポートする</div>
+        <div class="grid-item">28. 応募する</div>
+        <div class="grid-item">29. 毎日、感謝する</div>
+    </div>
+</div>
+
+<!-- プログラム特典スライド -->
+<div class="slide">
+    <h1>プログラム特典</h1>
+    <div class="content">
+        <h2>朝会参加</h2>
+        <div class="highlight-box">
+            <p>📅 毎週日曜日 6:40-7:00</p>
+            <p>📝 その週のガネーシャの名言に関するメモ書き</p>
+        </div>
+        
+        <h2>進捗管理</h2>
+        <div class="highlight-box">
+            <p>📊 週次アンケート提出（翌土曜日締切）</p>
+            <ul>
+                <li>実施内容（いつ・どこで・だれに・なにをどうした）</li>
+                <li>感想</li>
+                <li>変化の記録</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- まとめスライド -->
+<div class="slide">
+    <div class="content">
+        <h2>期待される効果</h2>
+        <div class="highlight-box">
+            <p>🌱 継続的な行動改善</p>
+            <p>🎯 意識の変化</p>
+            <p>✨ 夢の実現に向けた具体的なステップの実践</p>
+            <p>🤝 コミュニティでの相互支援</p>
+        </div>
+        <p style="text-align: center; margin-top: 40px; font-size: 1.2em; color: #000000;">
+            29週間の 旅 で、<br>
+            小さな行動変化から大きな夢の実現へ
+        </p>
+
+
+    </div>
+</div>
+
+</body>
+</html>
